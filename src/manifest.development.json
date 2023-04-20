@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "youtube-stop-recommanding",
+    "description": "Stop YouTube recommanding related videos on the right side of the page.",
+    "version": "0.0.1",
+    "background": {
+        "service_worker": "/background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "/icon.png",
+            "24": "/icon.png",
+            "32": "/icon.png"
+        },
+        "default_title": "Click Me"
+    }
+}

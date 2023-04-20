@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "name": "youtube-stop-recommanding",
+    "description": "Stop YouTube recommanding related videos on the right side of the page.",
+    "version": "0.0.1",
+    "background": {
+        "service_worker": "/background.js"
+    }
+}
